@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilObituario.css">
     
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   
@@ -43,35 +42,41 @@
       </li>
     </ul>
   </div>
-  
 </nav>
 
+<main>
+  
 <main>
     <div id="demo" class="carousel slide" data-ride="carousel">
 
         <!-- Indicadores -->
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
+          <?php
+            for($i=1;$i<5;$i++){
+             echo "<li data-target='#demo' data-slide-to='$i'></li>";
+            } 
+          ?>
         </ul>
         
         <!-- contenido -->
         <div class="carousel-inner">
-
           <div class="carousel-item active">
-            <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="Los Angeles" width="1100" height="500">
+          <?php
+            $url="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcReoa0m8_4EE0foaO5t7iG_NedfBZDp5xekqycJJkd_aNUtn5u2";
+            echo "<img src='$url'  width='300' height='100'>"; 
+          ?>
           </div>
-
-          <div class="carousel-item">
-              <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="Chicago" width="1100" height="500">
-            </div>
-  
-            <div class="carousel-item">
-              <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" width="1100" height="500">
-            </div>
-
-
+         
+          <?php
+          for($i=1;$i<5;$i++){
+            echo "<div class='carousel-item'>";
+            $url="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcReoa0m8_4EE0foaO5t7iG_NedfBZDp5xekqycJJkd_aNUtn5u2";
+             echo "<img src='$url'  width='300' height='100'>"; 
+            echo"</div>";
+           }
+          ?>
+           
         </div>
         
         <!-- flechas de navegacion -->
@@ -83,13 +88,7 @@
         </a>
       </div>
     <!---Carrusel-->
-<hr>
-<footer class="container">
-  <p>Desarollado por PW -ISC-ITSUR -2019
-      Derechos reservados
-  </p>
-</footer>
-</main>  
+</main>
     <script src="js/jquery.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script><!---Navbar--->
