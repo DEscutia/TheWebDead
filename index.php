@@ -8,8 +8,9 @@
     $image3 = "https://scontent.fcyw4-1.fna.fbcdn.net/v/t1.0-9/71202321_693552777828941_4151164068578721792_n.jpg?_nc_cat=107&_nc_oc=AQmfTFYZXzOJq2pKWXR2goAlKI47Ana3W8RIW6WKgwK5LD02V5WorYlgnS9HPMwcnlrbqn16GGvnO0PTUoDj3DwC&_nc_ht=scontent.fcyw4-1.fna&oh=543429d5b7423f828eadf13218d864aa&oe=5E5C2891";
 ?>
 
-<main>
-    <div class="container">
+<main> 
+<div class="jumbotron">
+<div class="container">
         <div id="carouselFade" class="carousel slide carousel-fade mt-5" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active ">
@@ -32,6 +33,8 @@
         </a>
     </div><!--carouselFade-->
     </div><!--Container -->
+</div>
+
 </main>
 
 <?php

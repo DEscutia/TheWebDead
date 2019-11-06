@@ -17,7 +17,7 @@
 </head>  
 
 <body>
-  <nav class="navbar navbar-dark stylish-color navbar-expand-md  fixed-top">
+  <nav class="navbar navbar-dark unique -color navbar-expand-md  fixed-top">
   <a class="navbar-brand" href="index.php">
     <img src="images\logo.jpg" width="30" height="30" alt="">
     Funeraria Izquierdo
