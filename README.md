@@ -1,11 +1,11 @@
-# Nombre de producto
-> Breve descripción de lo que hace tu producto.
+# Funerales Izquierdo
+> Proyecto para la materia de Programación Web 1 para el Instituto Tecnológico Superior del Sur de Guanajuato
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![Version NPM][npm-image]][npm-url]
+[![Estatus del Build][travis-image]][travis-url]
+[![Estado de las descarhas][npm-downloads]][npm-url]
 
-Uno o dos párrafos sobre tu producto y el problema que resuelve.
+Con esta pagina web implementada en PHP planeamos romper la brecha digital que tienen la mayoria de los clientes de esta funeraria, tratando de llegar a mas personas por medios digitales haciendo presencia en busquedas en internet.
 
 ![](../header.png)
 
