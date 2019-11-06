@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funerales Izquierdo</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  </head>
-  <body>
-  <header>
-  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-<a class="navbar-brand" href="index.php">
+    <title>Funeralia Izquierdo</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>  
+
+<body>
+  <nav class="navbar navbar-dark stylish-color navbar-expand-md  fixed-top">
+  <a class="navbar-brand" href="index.php">
     <img src="images\logo.jpg" width="30" height="30" alt="">
-    Funerales Izquierdo
+    Funeraria Izquierdo
   </a>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" 
             data-target="#navbarMenu" aria-controls="navbarMenu" 
             aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
-        </button>   
+        </button> 
+
   <div class="collapse navbar-collapse" id="navbarMenu">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
@@ -40,4 +46,3 @@
     </ul>
   </div>
 </nav>
-</header>

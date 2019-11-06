@@ -6,45 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Funerales Izquierdo</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/estilObituario.css">
-    
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  
 </head>
 
-<body>
-
-<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-<a class="navbar-brand" href="index.php">
-    <img src="images\logo.jpg" width="30" height="30" alt="">
-    Funerales Izquierdo
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" 
-            data-target="#navbarMenu" aria-controls="navbarMenu" 
-            aria-expanded="false">
-            <span class="navbar-toggler-icon"></span>
-        </button>   
-  <div class="collapse navbar-collapse" id="navbarMenu">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="conocenos.php">Quienes Somos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="obituarios.php">Obituarios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="ubicacion.php">Ubicación</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="muestrario.php">Muestrario</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<main>
+<?php
+ require_once "partials/header.php";
+ ?>
   
 <main>
     <div id="demo" class="carousel slide" data-ride="carousel">
@@ -89,9 +55,9 @@
       </div>
     <!---Carrusel-->
 </main>
-    <script src="js/jquery.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script><!---Navbar--->
-    
+<?php
+require_once "partials/footer.php";
+?>
+
 </body>
 </html>
