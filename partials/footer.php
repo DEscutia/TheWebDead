@@ -5,11 +5,14 @@
     <!-- Grid row-->
     <div class="row">
       <!-- Grid column -->
-      <div class="col-md-12 py-5">
-        <div class="mb-5 flex-center">
+      <div class="col-md-6 py-5">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci laudantium delectus dignissimos, esse officiis harum veritatis illo dolor officia, ullam neque sit modi laboriosam maxime, reprehenderit distinctio quo? Vero, impedit.</p>  
+      </div>
+      <div class="col-md-6 py-5">
+        <div class="mb-5 flex-left">
           <!-- Facebook -->
           <a class="https://www.facebook.com/funerariaizq/">
-            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-4x"> </i>
           </a>
         </div>
       </div>
